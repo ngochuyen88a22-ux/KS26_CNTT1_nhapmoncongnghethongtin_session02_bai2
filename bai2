@@ -1,0 +1,8 @@
+Phần 1 (Phân tích): 
+Đường dẫn của Bình bị đứt gãy khi sang máy khác vì:
+-Đường dẫn C:\Users\Binh-K26\Documents\Python-Projects\Session-02\assets\logo.png chỉ tồn tại trên máy của Bình. Nếu tên user của thầy khác hoặc không dùng ổ đĩa C thì python sẽ không tìm thấy file
+-Hiểu lầm \Users… là \Uxxxxxxxx lệnh đặc biệt
+Phần 2 (Sửa lỗi):
+Relative Path (Đường dẫn tương đối): image_path = "assets/logo.png" hoặc image_path = "./assets/logo.png"
+-Ký hiệu . đại diện cho thư mục Session-02 - nơi chứa file code
+-Ký hiệu .. dùng để thụt lùi về thư mục cha (nếu cần lấy file ở ngoài)
